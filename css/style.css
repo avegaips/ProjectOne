@@ -42,7 +42,8 @@ ul{
     padding: 24px;
 }
 .spotlight img{
-    height: 300px;
+    width: 50%;
+    height: 250px;
     padding-left: 10px;
 }
 .spotlight-text{
