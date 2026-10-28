@@ -39,8 +39,6 @@ ul{
     display: flex;
     background-color:#EFEFEF;
     margin-top: 24px;
-    margin-left: 80px;
-    margin-right:24px;
     padding: 24px;
 }
 .spotlight img{
@@ -67,12 +65,14 @@ ul{
     background-color:#B11843;
     color: #EFEFEF;
     margin-top: 24px;
-    margin-right:80px;
     padding: 24px;
 }
 .hero-grid{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin-right: 80px;
+    margin-left: 80px;
+    gap: 24px;
 }
 .cards-gallery{
     display: grid;
@@ -153,14 +153,16 @@ ul{
         display: grid;
         grid-template-columns: 1fr;
     }
-    .spotlight{
-        margin-right: 80px;
-    }
     .spotlight img{
         margin-top: 45%;
     }
-    .sidebar{
-        margin-left: 80px;
+    .content-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .poster-grid{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
